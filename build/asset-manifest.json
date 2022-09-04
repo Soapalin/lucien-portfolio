@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lucien-portfolio/static/css/main.071059dd.css",
+    "main.js": "/lucien-portfolio/static/js/main.b75129a3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/lucien-portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/semi professional photo.png": "/lucien-portfolio/static/media/semi professional photo.9aefd987a81244088d4b.png",
+    "static/media/logo.svg": "/lucien-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/lucien-portfolio/index.html",
+    "main.071059dd.css.map": "/lucien-portfolio/static/css/main.071059dd.css.map",
+    "main.b75129a3.js.map": "/lucien-portfolio/static/js/main.b75129a3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/lucien-portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.071059dd.css",
+    "static/js/main.b75129a3.js"
+  ]
+}
