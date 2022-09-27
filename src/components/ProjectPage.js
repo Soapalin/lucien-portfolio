@@ -16,7 +16,7 @@ class ProjectPage extends React.Component {
         }}>
             <Slide direction="bottom">
                 <Box>
-                    <h5 className="text-start page-title black">Featured Projects</h5>
+                    <h5 className="text-start page-title black"><i>Featured Projects</i></h5>
                     <h2 className="text-start page-title black">AURALIS</h2>
                 </Box>
             </Slide>

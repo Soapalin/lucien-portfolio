@@ -23,7 +23,7 @@ class SkillsTools extends React.Component {
                         }}>
 
                             < Fade direction="bottom">
-                                <h2 className='text-start'>I design and build stuff...</h2>
+                                <h4 className='text-start'>I design and build stuff...</h4>
                                 <p className="body2 text-start">websites and mobile applications.</p>
                             </Fade>
                         </Box>
@@ -37,7 +37,7 @@ class SkillsTools extends React.Component {
                             p: "4vh"
                         }}>
                             < Fade direction="bottom">
-                                <h2 className='text-start'>I work as a ...</h2>
+                                <h4 className='text-start'>I work as a ...</h4>
                                 <p className="body2 text-start">Firmware Test Engineer at Finisar WSS.</p>
                             </Fade>
                         </Box>
@@ -51,7 +51,7 @@ class SkillsTools extends React.Component {
                             p: "4vh"
                         }}>
                             < Fade direction="bottom">
-                                <h2 className='text-start'>I graduated from...</h2>
+                                <h4 className='text-start'>I graduated from...</h4>
                                 <p className="body2 text-start">a Bachelor of Electrical Engineering at UTS.</p>
                             </Fade>
                         </Box>

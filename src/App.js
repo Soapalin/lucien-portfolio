@@ -34,7 +34,7 @@ function App() {
 
 class WelcomePage extends React.Component {
   render() {
-    return <Box className="fullpage" sx={{ background: { xs: "#A083BE", sm: "#A083BE", md: "#A083BE", lg: "linear-gradient(90deg, #A083BE 23%, #BEA074 23%)", xl: "linear-gradient(90deg, #A083BE 23%, #BEA074 23%)" } }}>
+    return <Box sx={{ display: "flex", flexDirection: "column", minHeight: "60vh", background: { xs: "#A083BE", sm: "#A083BE", md: "#A083BE", lg: "linear-gradient(90deg, #A083BE 23%, #89BF71 23%)", xl: "linear-gradient(90deg, #A083BE 23%, #89BF71 23%)" } }}>
       <HeaderNav></HeaderNav>
       <AboutMe></AboutMe>
     </Box>;
