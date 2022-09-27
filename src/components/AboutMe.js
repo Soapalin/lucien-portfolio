@@ -2,8 +2,7 @@ import '../App.css';
 import visage from '../semi professional photo.png';
 import React from 'react';
 import { Container, Grid, Box } from '@mui/material';
-import Slide from 'react-reveal/Slide';
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 
 
@@ -13,24 +12,24 @@ class AboutMe extends React.Component {
     return <Box className="column">
       <Box justifyContent="center" alignItems="center" sx={{ minHeight: "85vh" }}>
         <Grid container spacing={0} alignItems="center" justifyContent="flex-end" >
-          <Grid item xs={12} sm={6} md={6} lg={6} xl={6} >
-            <Box sx={{ height: "85vh", width: { xs: "100vw", sm: "50vw", md: "50vw", lg: "50vw", xl: "50vw" } }} display="flex" justifyContent="center" alignItems="center">
-              <Box sx={{ height: { xs: "35vw", sm: "20vw", md: "20vw", lg: "20vw", xl: "20vw" }, width: { xs: "35vw", sm: "20vw", md: "20vw", lg: "20vw", xl: "20vw" }, border: 1, borderColor: "#E3DDDA", position: "absolute", marginLeft: "3w", marginTop: "3w", zIndex: "1" }} >
+          <Grid item xs={12} sm={12} md={12} lg={6} xl={6} >
+            <Box sx={{ height: { xs: "50vh", sm: "50vh", md: "40vh", lg: "85vh", xl: "85vh" }, width: { xs: "100vw", sm: "100vw", md: "100vw", lg: "50vw", xl: "50vw" } }} display="flex" justifyContent="center" alignItems="center">
+              <Box sx={{ height: { xs: "35vw", sm: "35vw", md: "30vw", lg: "20vw", xl: "20vw" }, width: { xs: "35vw", sm: "35vw", md: "30vw", lg: "20vw", xl: "20vw" }, border: 1, borderColor: "#E3DDDA", position: "absolute", marginLeft: "3w", marginTop: "3w", zIndex: "1" }} >
               </Box>
-              <Box sx={{ height: { xs: "35vw", sm: "20vw", md: "20vw", lg: "20vw", xl: "20vw" }, width: { xs: "35vw", sm: "20vw", md: "20vw", lg: "20vw", xl: "20vw" }, bgcolor: "green", marginBottom: "5vw", marginLeft: "-5vw", zIndex: "2" }} >
+              <Box sx={{ height: { xs: "35vw", sm: "35vw", md: "30vw", lg: "20vw", xl: "20vw" }, width: { xs: "35vw", sm: "35vw", md: "30vw", lg: "20vw", xl: "20vw" }, bgcolor: "green", marginBottom: "5vw", marginLeft: "-5vw", zIndex: "2" }} >
                 <img src={visage} className="logo-small" alt="visage" />
               </Box>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={6} lg={6} xl={6} sx={{ background: { xs: "#BEA074" } }}>
-            <Container sx={{ textAlign: "left" }}>
-              <Fade bottom>
+          <Grid item xs={12} sm={12} md={12} lg={6} xl={6} sx={{ background: { xs: "#BEA074", sm: "#BEA074", md: "#BEA074" } }}>
+            <Container sx={{ textAlign: { xs: "center", sm: "center", md: "center", lg: "left", xl: "left" }, height: { xs: "50vh", sm: "50vh", md: "45vh" }, width: { xs: "70vh", sm: "70vh", md: "70vh", lg: "50vw", xl: "50vw" } }}>
+              <Fade direction="bottom">
                 <h6 >Hi, my name is</h6>
               </Fade>
-              <Fade bottom delay={500}>
+              <Fade direction="bottom" delay={500}>
                 <h1 >Lucien Tran</h1>
               </Fade>
-              <Fade bottom delay={1000}>
+              <Fade direction="bottom" delay={1000}>
 
                 <h3 className="smaller-h3">I build <span className="type-animation"></span> websites.</h3>
                 <p className='body'>
@@ -39,6 +38,7 @@ class AboutMe extends React.Component {
 
               </Fade>
             </Container>
+
           </Grid>
         </Grid>
       </Box>

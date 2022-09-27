@@ -2,15 +2,15 @@
 import '../App.css';
 import React from 'react';
 import { Box, SvgIcon } from '@mui/material';
-import Slide from 'react-reveal/Slide';
-import Fade from 'react-reveal/Fade';
+import { Slide } from "react-awesome-reveal";
+
 
 
 class NoteworthyProjects extends React.Component {
     render() {
         return (
             <Box justifyContent="center" alignItems="center" className="fullpage">
-                < Slide bottom>
+                < Slide direction="bottom">
                     <Box>
                         <h1 className="page-title black">Other Noteworthy Projects</h1>
                     </Box>

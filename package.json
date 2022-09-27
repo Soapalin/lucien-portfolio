@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://soapalin.github.io/lucien-portfolio",
   "dependencies": {
-    "@emotion/react": "^11.9.3",
+    "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.9.3",
     "@mui/material": "^5.9.0",
     "@testing-library/jest-dom": "^5.16.4",
@@ -13,10 +13,9 @@
     "gh-pages": "^4.0.0",
     "jquery": "^3.6.0",
     "react": "^18.2.0",
-    "react-animation-on-scroll": "^5.1.0",
+    "react-awesome-reveal": "^4.0.1",
     "react-dom": "^18.2.0",
-    "react-reveal": "^1.2.2",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

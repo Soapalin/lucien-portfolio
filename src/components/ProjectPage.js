@@ -2,19 +2,19 @@
 import '../App.css';
 import React from 'react';
 import { Container, Grid, Box } from '@mui/material';
-import Slide from 'react-reveal/Slide';
-import Fade from 'react-reveal/Fade';
+import { Fade, Slide } from "react-awesome-reveal";
+
 
 
 
 class ProjectPage extends React.Component {
     render() {
-        return <Box className="column" sx={{
+        return <Box id={"ProjectPage"} className="column" sx={{
             minHeight: "100vh",
             paddingLeft: "4vw",
             paddingRight: "4vw"
         }}>
-            <Slide bottom>
+            <Slide direction="bottom">
                 <Box>
                     <h5 className="text-start page-title black">Featured Projects</h5>
                     <h2 className="text-start page-title black">AURALIS</h2>
@@ -24,7 +24,7 @@ class ProjectPage extends React.Component {
             <Grid container alignItems="center">
                 <Grid item lg={6}>
                     <Box className="bg-primary z-index2" sx={{ height: "50vh", width: "50vw", position: "relative", alignItems: "center", display: "flex" }}>
-                        <Fade bottom>
+                        <Fade direction="bottom">
                             <Container>
                                 <p className="body2 text-start">AURALIS allows you to experience music.</p>
                                 <Box sx={{ height: "2vh" }}></Box>

@@ -1,8 +1,7 @@
 import '../App.css';
 import React from 'react';
 import { Grid, Button, Box, TextField, SvgIcon, Avatar } from '@mui/material';
-import Slide from 'react-reveal/Slide';
-import Fade from 'react-reveal/Fade';
+import { Fade, Slide } from "react-awesome-reveal";
 
 
 
@@ -41,11 +40,11 @@ class ContactForm extends React.Component {
 class ContactMe extends React.Component {
     render() {
         return (
-            <Box justifyContent="center" alignItems="center" className="fullpage black">
-                < Slide bottom>
+            <Box id={"ContactMe"} justifyContent="center" alignItems="center" className="fullpage black">
+                < Slide direction="bottom">
                     <Box className="paragraph"><h1>Catch up for a coffee or hire me!</h1></Box>
                 </Slide>
-                <Fade bottom delay={500}>
+                <Fade direction="bottom" delay={500}>
 
                     <Box className="paragraph">
                         <p className="body">I'll never miss a chance to have coffee. I am interested in freelance opportunities - large and small. Feel free to reach out to me if you have any questions or would like to catch up.</p>

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 
 import './App.css';
 import AboutMe from './components/AboutMe.js';
@@ -14,7 +13,6 @@ import { useTheme } from '@mui/material/styles';
 
 
 
-
 function App() {
   const matches = useMediaQuery('(min-width: 900px)')
   console.log(matches)
@@ -23,8 +21,8 @@ function App() {
     <div className="App">
       <div className="App-header">
         <WelcomePage></WelcomePage>
-        <SkillsTools></SkillsTools>
-        <ProjectPage></ProjectPage>
+        <SkillsTools ></SkillsTools>
+        <ProjectPage ></ProjectPage>
         <NoteworthyProjects />
         <ContactMe />
       </div>
@@ -36,12 +34,16 @@ function App() {
 
 class WelcomePage extends React.Component {
   render() {
-    return <Box className="fullpage" sx={{ background: { xs: "#A083BE", sm: "linear-gradient(90deg, #A083BE 23%, #BEA074 23%)", md: "linear-gradient(90deg, #A083BE 23%, #BEA074 23%)", lg: "linear-gradient(90deg, #A083BE 23%, #BEA074 23%)", xl: "linear-gradient(90deg, #A083BE 23%, #BEA074 23%)" } }}>
+    return <Box className="fullpage" sx={{ background: { xs: "#A083BE", sm: "#A083BE", md: "#A083BE", lg: "linear-gradient(90deg, #A083BE 23%, #BEA074 23%)", xl: "linear-gradient(90deg, #A083BE 23%, #BEA074 23%)" } }}>
       <HeaderNav></HeaderNav>
       <AboutMe></AboutMe>
     </Box>;
   }
 }
+
+
+
+
 
 export default App;
 

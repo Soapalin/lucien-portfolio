@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -74,11 +78,41 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Encode Sans Semi Expanded', serif;
+
+  font-family: 'Encode Sans Semi Expanded';
+}
+
+h1 {
+  font-size: 39.81px;
+}
+
+h2 {
+  font-size: 33.18px;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 27.65px;
 }
 
 .smaller-h3 {
-  font-size: 31px;
+  font-size: 27.65px;
+}
+
+h4 {
+  font-size: 23.04px;
+}
+
+h5 {
+  font-size: 19.20px;
+}
+
+h6 {
+  font-size: 16.00px;
+}
+
+p {
+  font-size: 16.00px;
 }
 
 .text-end {
@@ -94,10 +128,7 @@ h6 {
   text-justify: center;
 }
 
-h3 {
-  font-weight: 300;
-  font-size: 43px;
-}
+
 
 .z-index1 {
   z-index: 1
@@ -135,9 +166,6 @@ h3 {
 }
 
 
-body {
-  font-family: "Epilogue";
-}
 
 .paragraph {
   display: flex;
@@ -156,9 +184,6 @@ body {
   flex-direction: column;
 }
 
-h1 {
-  font-family: "Encode Sans Semi Expanded"
-}
 
 .text-white {
   color: white
