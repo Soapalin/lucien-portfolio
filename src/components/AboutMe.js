@@ -1,7 +1,7 @@
 import '../App.css';
 import visage from '../semi professional photo.png';
 import React from 'react';
-import { Container, Grid, Box } from '@mui/material';
+import { Container, Grid, Box, Button } from '@mui/material';
 import { Fade } from "react-awesome-reveal";
 
 
@@ -30,7 +30,6 @@ class AboutMe extends React.Component {
                 <h1 >Lucien Tran</h1>
               </Fade>
               <Fade direction="bottom" delay={1000}>
-
                 <h3 className="smaller-h3">I build <span className="type-animation"></span> websites.</h3>
                 <p className='body'>
                   I design/build websites and mobile application at night, and work as a firmware test engineer by day. Having worked as a disability support worker for more than 4 years, I believe in building accessible technologies.</p>
@@ -41,6 +40,7 @@ class AboutMe extends React.Component {
 
           </Grid>
         </Grid>
+        <Button><Box className="long-button"><h1>Check out my socials! #-</h1></Box></Button>
       </Box>
       {/* <Box className="row" sx={{
           minHeight: "100vh",

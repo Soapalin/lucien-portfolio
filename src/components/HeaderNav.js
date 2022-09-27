@@ -22,7 +22,7 @@ function HeaderNav() {
                         <Grid item xs={0} sm={0} md={2} lg={2} xl={2} ><h5><a href="#ContactMe">Contact</a></h5></Grid>
                         <Grid item xs={0} sm={2} md={2} lg={2} xl={2} >
                             <Fade direction="bottom" delay={500}>
-                                <a href="#ContactMe"><Button variant="contained" className="btn bg-primary" ><h5>Hire Me!</h5></Button></a>
+                                <a href="#ContactMe"><Button variant="contained" className="btn bg-primary" ><h5># Hire Me!</h5></Button></a>
                             </Fade>
                         </Grid>
 
@@ -35,14 +35,14 @@ function HeaderNav() {
     } else {
         return <Container sx={{ height: "15vh" }}>
             < Slide direction="bottom">
-                <Grid container spacing={4} direction="row" alignItems="center" justifyContent="flex-start" wrap="nowrap">
+                <Grid container spacing={4} direction="row" alignItems="center" justifyContent="flex-start">
 
                     <Grid item xs={7} sm={7} md={4} lg={4} xl={4} alignItems="flex-start" justifyContent="flex-start"><Flip><img alt="logo" src={logo}></img></Flip></Grid>
                     <Grid item xs={5} sm={5} direction="row" alignItems="baseline" justifyContent="flex-end">
 
                     </Grid>
                 </Grid>
-            </Slide>
+            </Slide >
         </Container >;
 
     }

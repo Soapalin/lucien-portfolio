@@ -186,6 +186,18 @@ p {
   flex-direction: column;
 }
 
+.long-button {
+  width: 100vw;
+  min-height: 10vh;
+  color: #3E3E3E;
+  background: #E3DDDA;
+  text-transform: unset !important;
+
+}
+
+.long-button:hover {
+  background-color: #A083BE;
+}
 
 .text-white {
   color: white
