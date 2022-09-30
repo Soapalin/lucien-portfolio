@@ -188,11 +188,13 @@ p {
 
 .long-button {
   width: 100vw;
-  min-height: 10vh;
+  margin: none;
+  padding-top: none;
+  padding-bottom: none;
   color: #3E3E3E;
   background: #E3DDDA;
-  text-transform: unset !important;
-
+  text-align: left;
+  padding-left: 10vw;
 }
 
 .long-button:hover {

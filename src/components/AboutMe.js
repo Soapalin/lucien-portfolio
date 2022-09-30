@@ -40,7 +40,7 @@ class AboutMe extends React.Component {
 
           </Grid>
         </Grid>
-        <Button><Box className="long-button"><h1>Check out my socials! #-</h1></Box></Button>
+        <Button className="long-button btn"><Box className="long-button"><h1>Check out my socials! #-</h1></Box></Button>
       </Box>
       {/* <Box className="row" sx={{
           minHeight: "100vh",
