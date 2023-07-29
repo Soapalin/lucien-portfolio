@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      "white": "#F8F8FF",
+      "offblack": "#1A1B1F",
+      "beige": "#E3DDDA",
+    },
     fontFamily: {
       'title': ['Encode Sans Semi Expanded', 'title'],
       'body': ['Epilogue', 'body'],

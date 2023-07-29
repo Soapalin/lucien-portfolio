@@ -1,23 +1,31 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import profilePic from './assets/photo.png'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-
-
   return (
-    <div className='w-screen'>
-      {/* <Placeholder /> */}
+    <div>
+      <div className='w-11/12 m-auto bg-white text-offblack'>
+        {/* <Placeholder /> */}
 
-      {/* <NavBar /> */}
-      <AboutMe />
-      {/* <Skills /> */}
-      {/* <Projects /> */}
-      {/* <HireMe /> */}
+        {/* <NavBar /> */}
+        <AboutMe />
+      </div>
+
+      <div className='bg-beige'>
+        <div className='w-11/12 m-auto bg-beige text-offblack'>
+          <Skills />
+          {/* <Projects /> */}
+          {/* <HireMe /> */}
+        </div></div>
 
 
-    </div>
+
+
+
+    </div >
   )
 }
 
@@ -46,17 +54,27 @@ function Placeholder() {
 function AboutMe() {
   return (
     <>
-      <section className='w-full'>
-        <div className='min-h-screen flex flex-row justify-between items-center'>
-          <div className='w-1/2 h-1/2 bg-red-500'>Here</div>
-          <div className='w-1/2 justify-self-start'>
-            <h6 className='font-title'>Hello, my name is</h6>
-            <h1 className='font-title'>Lucien Tran</h1>
-            <h3 className='font-body'>I build <b>(and design!)</b> websites.</h3>
-            <p className='font-body'>I design/build websites and mobile application at night, and work as a firmware test engineer by day. Having worked as a disability support worker for more than 4 years, I believe in building accessible technologies.</p>
-            <p className='font-body'>Website Designer/Developer | Firmware Test Engineer | Electronics Engineer
+      <section className='w-full min-h-screen'>
+        <div className=' flex flex-row justify-between items-center  min-h-[80vh]'>
+          <div className='w-1/2 h-1/2'>
+            <div className='w-1/2 h-1/2 m-auto'>
+              <img src={profilePic} className='w-full h-full aspect-square' />
+            </div>
+          </div>
+          <div className='w-1/2 mr-16'>
+            <h6 className='font-title text-left text-offblack font-medium'>Hello, my name is</h6>
+            <h1 className='font-title text-left leading-loose font-bold'>Lucien Tran</h1>
+            <h2 className='font-title text-left leading-loose text-2xl font-semibold'>I build <i>(and design!)</i> websites.</h2>
+            <p className='font-body text-left leading-relaxed'>I design/build websites and mobile application at night, and work as a firmware test engineer by day. Having worked as a disability support worker for more than 4 years, I believe in building accessible technologies.</p>
+            <p className='font-body text-left leading-normal text-sm font-extralight'><i>Website Designer/Developer | Firmware Test Engineer | Electronics Engineer</i>
             </p></div>
         </div>
+        <div className='w-1/2 m-auto min-h[20vh]'>
+          <div className='border border-black border-solid rounded-t-3xl rounded-br-3xl'>
+            <p className='font-title text-left leading-loose text-2xl font-semibold ml-10 text-center'># Check out my socials!</p>
+          </div>
+        </div >
+
       </section>
 
     </>
@@ -70,10 +88,9 @@ function NavBar() {
 function Skills() {
   return (
     <>
-      <section className='w-full'>
+      <section className='w-full '>
         <div className='min-h-screen flex flex-row justify-between items-center'>
-          <p>HELLO</p>
-          <p>HELLO</p>
+
         </div>
       </section>
 
